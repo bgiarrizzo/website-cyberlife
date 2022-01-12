@@ -5,3 +5,9 @@
 .vertical-center {
     padding-top: calc(45vh - 56px);
 }
+
+#tsparticles canvas {
+    top: 56px !important;
+    height: calc(100vh - 56px) !important;
+    position:absolute !important;
+}
